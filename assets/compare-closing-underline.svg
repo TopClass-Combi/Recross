@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" width="429" height="13" viewBox="0 0 429 13" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M0 4.0625C0 5.6875 0 7.3125 0 8.9375C7.15 9.47917 14.3 9.96667 21.45 10.4C50.05 12.1333 78.65 13 107.25 13C207.35 13 307.45 11.8204 407.55 9.46111C414.7 9.29259 421.85 9.11806 429 8.9375C429 7.3125 429 5.6875 429 4.0625C421.85 3.88194 414.7 3.70741 407.55 3.53889C307.45 1.17963 207.35 0 107.25 0C78.65 0 50.05 0.866667 21.45 2.6C14.3 3.03333 7.15 3.52083 0 4.0625Z" fill="url(#compare-closing-underline-gradient)"/>
+  <defs>
+    <linearGradient id="compare-closing-underline-gradient" x1="0" y1="13.5" x2="417" y2="30.3" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AC0E"/>
+      <stop offset="0.538462" stop-color="#F1DF99"/>
+      <stop offset="1" stop-color="#D4AC0E"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 387.5 36.8198" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <path d="M386.768 20.1777C387.744 19.2014 387.744 17.6184 386.768 16.6421L370.858 0.732233C369.882 -0.244078 368.299 -0.244078 367.322 0.732233C366.346 1.70854 366.346 3.29146 367.322 4.26777L381.464 18.4099L367.322 32.552C366.346 33.5283 366.346 35.1113 367.322 36.0876C368.299 37.0639 369.882 37.0639 370.858 36.0876L386.768 20.1777ZM0 18.4099V20.9099H385V18.4099V15.9099H0V18.4099Z" fill="url(#hero-sp-flow-line-gradient)"/>
+  <defs>
+    <linearGradient id="hero-sp-flow-line-gradient" x1="0" y1="18.9099" x2="1.08258" y2="35.6993" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AC0E"/>
+      <stop offset="0.538462" stop-color="#F1DF99"/>
+      <stop offset="1" stop-color="#D4AC0E"/>
+    </linearGradient>
+  </defs>
+</svg>
