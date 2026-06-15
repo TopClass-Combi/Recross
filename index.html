@@ -119,11 +119,11 @@
           <div class="hero__panel-composite">
             <img class="hero__panel-ellipse" src="assets/hero-sp-ellipse.png" alt="" width="710" height="555" aria-hidden="true">
             <img class="hero__flow-arrow hero__flow-arrow--2" src="assets/hero-flow-arrow-2.png" alt="" width="458" height="165" aria-hidden="true">
-            <img class="hero__mock hero__mock--video" src="assets/hero-mock-video.png" alt="動画サムネイル" width="291" height="192">
-            <img class="hero__mock hero__mock--page" src="assets/hero-mock-page.png" alt="記事画面" width="74" height="131">
-            <img class="hero__mock hero__mock--card" src="assets/hero-mock-card.png" alt="コンテンツカード" width="99" height="139">
-            <img class="hero__mock hero__mock--article" src="assets/hero-mock-article.png" alt="掲載記事" width="134" height="131">
-            <img class="hero__mock hero__mock--sns" src="assets/hero-mock-sns.png" alt="SNS投稿モックアップ" width="192" height="288">
+            <img class="hero__mock hero__mock--video" src="assets/hero-mock-video.jpg" alt="動画サムネイル" width="291" height="192">
+            <img class="hero__mock hero__mock--page" src="assets/hero-mock-page.jpg" alt="記事画面" width="74" height="131">
+            <img class="hero__mock hero__mock--card" src="assets/hero-mock-card.jpg" alt="コンテンツカード" width="99" height="139">
+            <img class="hero__mock hero__mock--article" src="assets/hero-mock-article.jpg" alt="掲載記事" width="134" height="131">
+            <img class="hero__mock hero__mock--sns" src="assets/hero-mock-sns.jpg" alt="SNS投稿モックアップ" width="192" height="288">
             <img class="hero__flow-arrow hero__flow-arrow--1" src="assets/hero-flow-arrow-1.png" alt="" width="455" height="124" aria-hidden="true">
             <div class="hero__flow hero__flow--pc">
               <div class="hero__flow-step">
@@ -174,13 +174,21 @@
           <span class="logos__title">導入企業</span>
         </div>
       </div>
-      <div class="logos__track">
-        <div class="logos__item"><img src="assets/client-logo-1.png" alt="導入事例"></div>
-        <div class="logos__item"><img src="assets/client-logo-2.png" alt="導入事例"></div>
-        <div class="logos__item"><img src="assets/client-logo-3.png" alt="導入事例"></div>
-        <div class="logos__item"><img src="assets/client-logo-4.png" alt="導入事例"></div>
-        <div class="logos__item"><img src="assets/client-logo-5.png" alt="導入事例"></div>
-        <div class="logos__item"><img src="assets/client-logo-6.png" alt="導入事例"></div>
+      <div class="logos__slider">
+        <div class="logos__track">
+          <div class="logos__item"><img src="assets/client-logo-1.png" alt="導入事例"></div>
+          <div class="logos__item"><img src="assets/client-logo-2.png" alt="導入事例"></div>
+          <div class="logos__item"><img src="assets/client-logo-3.png" alt="導入事例"></div>
+          <div class="logos__item"><img src="assets/client-logo-4.png" alt="導入事例"></div>
+          <div class="logos__item"><img src="assets/client-logo-5.png" alt="導入事例"></div>
+          <div class="logos__item"><img src="assets/client-logo-6.png" alt="導入事例"></div>
+          <div class="logos__item" aria-hidden="true"><img src="assets/client-logo-1.png" alt=""></div>
+          <div class="logos__item" aria-hidden="true"><img src="assets/client-logo-2.png" alt=""></div>
+          <div class="logos__item" aria-hidden="true"><img src="assets/client-logo-3.png" alt=""></div>
+          <div class="logos__item" aria-hidden="true"><img src="assets/client-logo-4.png" alt=""></div>
+          <div class="logos__item" aria-hidden="true"><img src="assets/client-logo-5.png" alt=""></div>
+          <div class="logos__item" aria-hidden="true"><img src="assets/client-logo-6.png" alt=""></div>
+        </div>
       </div>
     </div>
 
@@ -197,8 +205,14 @@
           </h2>
           <div class="problems__layout">
             <div class="problems__panel">
+              <img class="problems__card-bg" src="assets/problems-sp-card.svg" alt="" width="342" height="170" aria-hidden="true">
+              <div class="problems__photo">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="assets/problems-photo.png">
+                  <img src="assets/problems-photo.png" alt="採用課題を考える経営者" width="316" height="480">
+                </picture>
+              </div>
               <div class="problems__card">
-                <img class="problems__card-bg" src="assets/problems-sp-card.svg" alt="" width="342" height="170" aria-hidden="true">
                 <ul class="problems__list">
                 <li class="problems__list-item">
                   <div class="problems__row">
@@ -229,12 +243,6 @@
                   <span class="problems__divider" aria-hidden="true"></span>
                 </li>
               </ul>
-              </div>
-              <div class="problems__photo">
-                <picture>
-                  <source media="(max-width: 767px)" srcset="assets/problems-sp-photo.png">
-                  <img src="assets/problems-photo.png" alt="採用課題を考える経営者" width="316" height="480">
-                </picture>
               </div>
             </div>
             <div class="problems__note">
@@ -273,42 +281,55 @@
 
     <!-- Market + Insight (single section in design) -->
     <section class="market-insight">
+      <img class="market-insight__bridge" src="assets/market-sp-bridge.svg" alt="" width="9" height="36" aria-hidden="true">
       <div class="market-insight__head">
         <div class="market-insight__title-row">
           <p class="market-insight__eyebrow">採用市場は</p>
-          <p class="market-insight__title-line"><span>顕在層</span><span class="is-sm">の</span><span>奪い合い</span><span class="is-sm">だけでは</span></p>
+          <div class="market-insight__title-block">
+            <p class="market-insight__title-line"><span>顕在層</span><span class="is-sm">の</span><span>奪い合い</span><span class="is-sm">だけでは</span></p>
+            <span class="market-insight__title-underline market-insight__title-underline--1" aria-hidden="true"></span>
+          </div>
         </div>
-        <h2 class="market-insight__title-main">勝てない時代です</h2>
+        <div class="market-insight__title-main-wrap">
+          <h2 class="market-insight__title-main">勝てない時代です</h2>
+          <span class="market-insight__title-underline market-insight__title-underline--2" aria-hidden="true"></span>
+        </div>
       </div>
 
       <div class="market-insight__panel">
         <div class="market-insight__panel-outer">
           <div class="market-insight__panel-inner">
             <div class="market-insight__chart-row">
+              <h3 class="market-insight__chart-heading">求職者は<span class="market-insight__chart-heading-num">２</span>層に分かれる</h3>
+              <div class="market-insight__chart-stage">
               <div class="market-insight__chart-visual">
                 <div class="market-insight__donut" aria-hidden="true">
-                  <img class="market-insight__donut-img" src="assets/market-donut.png" alt="" width="334" height="334">
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="assets/market-sp-donut.png">
+                    <img class="market-insight__donut-img" src="assets/market-donut.png" alt="" width="334" height="334">
+                  </picture>
                 </div>
                 <span class="market-insight__connector market-insight__connector--orange" aria-hidden="true"></span>
                 <span class="market-insight__connector market-insight__connector--navy" aria-hidden="true"></span>
               </div>
               <div class="market-insight__layers">
-                <div class="market-insight__layer">
-                  <div class="market-insight__layer-pill">今すぐ転職したい層</div>
+                <div class="market-insight__layer market-insight__layer--active">
                   <div class="market-insight__layer-main">
                     <span class="market-insight__layer-name market-insight__layer-name--orange">顕在層</span>
                     <span class="market-insight__pct market-insight__pct--orange">32<span class="market-insight__pct-unit">%</span></span>
                   </div>
                   <span class="market-insight__layer-line market-insight__layer-line--orange" aria-hidden="true"></span>
+                  <div class="market-insight__layer-pill">今すぐ転職<br>したい層</div>
                 </div>
-                <div class="market-insight__layer">
-                  <div class="market-insight__layer-pill market-insight__layer-pill--wide">いい会社があれば考えたい層</div>
+                <div class="market-insight__layer market-insight__layer--latent">
                   <div class="market-insight__layer-main">
                     <span class="market-insight__layer-name">潜在層</span>
                     <span class="market-insight__pct">68<span class="market-insight__pct-unit">%</span></span>
                   </div>
                   <span class="market-insight__layer-line market-insight__layer-line--navy" aria-hidden="true"></span>
+                  <div class="market-insight__layer-pill market-insight__layer-pill--wide">いい会社があれば<br>考えたい層</div>
                 </div>
+              </div>
               </div>
               <div class="market-insight__callouts">
                 <div class="market-insight__callout market-insight__callout--light">
@@ -316,10 +337,7 @@
                   <p class="market-insight__callout-row">全体のわずか<span class="market-insight__callout-num">32</span>%</p>
                 </div>
                 <p class="market-insight__callout market-insight__callout--dark">
-                  残り68%のいい会社が<br>
-                  あれば考えたい層には、<br>
-                  条件ではなく発信で届ける<br>
-                  しかありません。
+                  残り68%のいい会社があれば考えたい層には、条件ではなく発信で届けるしかありません。
                 </p>
               </div>
             </div>
@@ -328,7 +346,10 @@
 
               <article class="market-insight__stat market-insight__stat--hero">
                 <div class="market-insight__stat-hero-top">
-                  <img class="market-insight__stat-figure" src="assets/market-stat-total.png" alt="" width="191" height="140" aria-hidden="true">
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="assets/market-sp-stat-icon.png">
+                    <img class="market-insight__stat-figure" src="assets/market-stat-total.png" alt="" width="191" height="140" aria-hidden="true">
+                  </picture>
                   <div class="market-insight__stat-body">
                     <p class="market-insight__stat-value"><span class="is-num">1023</span><span class="is-unit">万人</span></p>
                     <p class="market-insight__stat-label">転職等希望者数</p>
@@ -382,18 +403,29 @@
       <div class="market-insight__insight">
         <div class="market-insight__insight-inner">
           <div class="market-insight__insight-photo">
-            <img src="assets/insight-photo.png" alt="チームで働くビジネスパーソン" width="485" height="402">
+            <picture>
+              <source media="(max-width: 767px)" srcset="assets/market-sp-insight-photo.jpg">
+              <img src="assets/insight-photo.jpg" alt="チームで働くビジネスパーソン" width="485" height="402">
+            </picture>
           </div>
           <div class="market-insight__insight-copy">
             <div class="market-insight__insight-lead-wrap">
+              <img class="market-insight__insight-lead-banner" src="assets/market-sp-insight-banner.svg" alt="" width="319" height="32" aria-hidden="true">
               <p class="market-insight__insight-lead">求職者は、仕事を探しているのではなく</p>
             </div>
             <div class="market-insight__insight-title">
-              <p class="market-insight__insight-title-text">この会社で働くイメージが持てるか</p>
+              <p class="market-insight__insight-title-text">
+                <span class="market-insight__insight-title-main">この会社で働くイメージ</span><span class="market-insight__insight-title-rest">が持てるか</span>
+              </p>
             </div>
+            <span class="market-insight__insight-title-underline" aria-hidden="true"></span>
+            <p class="market-insight__insight-title-sub">が持てるか</p>
             <div class="market-insight__insight-body">
               <p class="market-insight__insight-text">
-                潜在層が動くきっかけは「条件の良い求人を見つけた」ではありません。「この会社、なんかいいな」「この社長の考え方に共感する」「ここで働く自分が想像できる」──<br>そう感じた瞬間です。つまり、届けるべきは条件ではなく、御社で働くイメージそのものです。
+                潜在層が動くきっかけは<strong>条件の良い求人を見つけた</strong>ではありません。<strong>この会社、なんかいいな。この社長の考え方に共感する。ここで働く自分が想像できる。</strong>
+              </p>
+              <p class="market-insight__insight-text">
+                ──そう感じた瞬間です。つまり、届けるべきは条件ではなく、御社で働くイメージそのものです。
               </p>
             </div>
           </div>
@@ -405,94 +437,120 @@
     <!-- Anxiety -->
     <section class="anxiety section-bg">
       <div class="anxiety__inner">
-        <header class="anxiety__header">
-          <div class="anxiety__dots" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <p class="anxiety__title-line">潜在層が転職しない理由は、</p>
-          <p class="anxiety__title-main">不安です。</p>
-        </header>
+        <div class="anxiety__panel">
+          <header class="anxiety__header">
+            <img class="anxiety__header-accent" src="assets/anxiety-sp-header-dots.png" alt="" width="83" height="4" aria-hidden="true">
+            <div class="anxiety__dots" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p class="anxiety__title-line">潜在層が転職しない理由は、</p>
+            <p class="anxiety__title-main">不安です。</p>
+          </header>
 
-        <div class="anxiety__lead-wrap">
-          <img class="anxiety__lead-line" src="assets/anxiety-lead-line.svg" alt="" width="305" height="13" aria-hidden="true">
-          <p class="anxiety__lead">
-            転職したくないのではなく、失敗が怖い。求人票には載っていない<br>
-            「どんな社長か」「どんな雰囲気か」が見えないから、動けないのです。
-          </p>
-        </div>
+          <div class="anxiety__lead-wrap">
+            <img class="anxiety__lead-line" src="assets/anxiety-lead-line.svg" alt="" width="305" height="13" aria-hidden="true">
+            <p class="anxiety__lead">
+              転職したくないのではなく、失敗が怖い。求人票には載っていない「どんな社長か」「どんな雰囲気か」が見えないから、動けないのです。
+            </p>
+          </div>
 
-        <div class="anxiety__bubbles">
-          <div class="anxiety__bubble-row anxiety__bubble-row--1">
-            <div class="anxiety__bubble anxiety__bubble--1">
-              <span class="anxiety__bubble-text">どんな<span class="anxiety__bubble-ul">職場環境</span>か？</span>
+          <div class="anxiety__bubbles">
+            <div class="anxiety__bubble-row anxiety__bubble-row--1">
+              <div class="anxiety__bubble anxiety__bubble--2">
+                <span class="anxiety__bubble-body">
+                  <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">人間関係</span>が不安</span>
+                </span>
+              </div>
+              <div class="anxiety__bubble anxiety__bubble--1">
+                <span class="anxiety__bubble-body">
+                  <span class="anxiety__bubble-text">どんな<span class="anxiety__bubble-ul">職場環境</span>か？</span>
+                </span>
+              </div>
             </div>
-            <div class="anxiety__bubble anxiety__bubble--2">
-              <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">人間関係</span>が不安</span>
+            <div class="anxiety__bubble-row anxiety__bubble-row--2">
+              <div class="anxiety__bubble anxiety__bubble--4">
+                <span class="anxiety__bubble-body">
+                  <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">入社後</span>が想像できない</span>
+                </span>
+              </div>
+              <div class="anxiety__bubble anxiety__bubble--3">
+                <span class="anxiety__bubble-body">
+                  <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">仕事内容</span>が見えない</span>
+                </span>
+              </div>
             </div>
-            <div class="anxiety__bubble anxiety__bubble--3">
-              <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">仕事内容</span>が見えない</span>
+            <div class="anxiety__bubble-row anxiety__bubble-row--3">
+              <div class="anxiety__bubble anxiety__bubble--6">
+                <span class="anxiety__bubble-body">
+                  <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">ミスマッチ</span>が怖い</span>
+                </span>
+              </div>
+              <div class="anxiety__bubble anxiety__bubble--5">
+                <span class="anxiety__bubble-body">
+                  <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">会社の将来性</span>が不安</span>
+                </span>
+              </div>
             </div>
-          </div>
-          <div class="anxiety__bubble-row anxiety__bubble-row--2">
-            <div class="anxiety__bubble anxiety__bubble--4">
-              <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">入社後</span>が想像できない</span>
-            </div>
-            <div class="anxiety__bubble anxiety__bubble--5">
-              <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">会社の将来性</span>が不安</span>
-            </div>
-            <div class="anxiety__bubble anxiety__bubble--6">
-              <span class="anxiety__bubble-text"><span class="anxiety__bubble-ul">ミスマッチ</span>が怖い</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="anxiety__reasons">
-          <div class="anxiety__reason anxiety__reason--1">
-            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-1.png" alt="" width="59" height="67">
-            <div class="anxiety__reason-row">
-              <img class="anxiety__reason-icon" src="assets/anxiety-check.png" alt="" width="36" height="36">
-              <span class="anxiety__reason-label">給与・待遇</span>
-            </div>
-          </div>
-          <div class="anxiety__reason anxiety__reason--2">
-            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-2.png" alt="" width="59" height="60">
-            <div class="anxiety__reason-row">
-              <img class="anxiety__reason-icon" src="assets/anxiety-check.png" alt="" width="36" height="36">
-              <span class="anxiety__reason-label">人間関係</span>
-            </div>
-          </div>
-          <div class="anxiety__reason anxiety__reason--3">
-            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-3.png" alt="" width="63" height="60">
-            <div class="anxiety__reason-row">
-              <img class="anxiety__reason-icon" src="assets/anxiety-check.png" alt="" width="36" height="36">
-              <span class="anxiety__reason-label">仕事内容</span>
-            </div>
-          </div>
-          <div class="anxiety__reason anxiety__reason--4">
-            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-4.png" alt="" width="63" height="60">
-            <div class="anxiety__reason-row">
-              <img class="anxiety__reason-icon" src="assets/anxiety-check.png" alt="" width="36" height="36">
-              <span class="anxiety__reason-label">
-                <span>働き方</span>
-                <span>職場環境</span>
-              </span>
-            </div>
-          </div>
-          <div class="anxiety__reason anxiety__reason--5">
-            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-5.png" alt="" width="63" height="60">
-            <div class="anxiety__reason-row">
-              <img class="anxiety__reason-icon" src="assets/anxiety-check.png" alt="" width="36" height="36">
-              <span class="anxiety__reason-label">
-                <span>会社の将来</span>
-                <span>不安</span>
-              </span>
-            </div>
+            <img class="anxiety__photo" src="assets/anxiety-sp-photo.png" alt="" width="171" height="265" aria-hidden="true">
           </div>
         </div>
 
-        <div class="anxiety__closing">
-          <p class="anxiety__closing-line">必要なのは、条件の羅列ではなく</p>
-          <p class="anxiety__closing-accent">安心して応募できる情報発信</p>
+        <div class="anxiety__stage anxiety__stage--desktop">
+          <div class="anxiety__reasons">
+            <div class="anxiety__reason anxiety__reason--2">
+              <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-2.png" alt="" width="59" height="60">
+              <div class="anxiety__reason-row">
+                <img class="anxiety__reason-icon" src="assets/problems-check.png" alt="" width="36" height="36">
+                <span class="anxiety__reason-label">人間関係</span>
+              </div>
+            </div>
+            <div class="anxiety__reason anxiety__reason--1">
+              <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-1.png" alt="" width="59" height="67">
+              <div class="anxiety__reason-row">
+                <img class="anxiety__reason-icon" src="assets/problems-check.png" alt="" width="36" height="36">
+                <span class="anxiety__reason-label">給与・待遇</span>
+              </div>
+            </div>
+            <div class="anxiety__reason anxiety__reason--3">
+              <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-3.png" alt="" width="63" height="60">
+              <div class="anxiety__reason-row">
+                <img class="anxiety__reason-icon" src="assets/problems-check.png" alt="" width="36" height="36">
+                <span class="anxiety__reason-label">仕事内容</span>
+              </div>
+            </div>
+            <div class="anxiety__reason anxiety__reason--4">
+              <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-4.png" alt="" width="63" height="60">
+              <div class="anxiety__reason-row">
+                <img class="anxiety__reason-icon" src="assets/problems-check.png" alt="" width="36" height="36">
+                <span class="anxiety__reason-label">働き方<br>職場環境</span>
+              </div>
+            </div>
+            <div class="anxiety__reason anxiety__reason--5">
+              <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-5.png" alt="" width="63" height="60">
+              <div class="anxiety__reason-row">
+                <img class="anxiety__reason-icon" src="assets/problems-check.png" alt="" width="36" height="36">
+                <span class="anxiety__reason-label">会社の将来<br>不安</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="anxiety__closing">
+            <div class="anxiety__closing-intro">
+              <p>必要なのは、</p>
+              <p>条件の羅列ではなく</p>
+            </div>
+            <p class="anxiety__closing-accent">安心して応募できる情報発信</p>
+            <div class="anxiety__closing-sp">
+              <p class="anxiety__closing-sp-line"><span class="is-orange">安心</span>して</p>
+              <p class="anxiety__closing-sp-line"><span class="is-orange">応募</span>できる</p>
+              <div class="anxiety__closing-kanji" aria-hidden="true">
+                <span class="anxiety__closing-char"><i></i>情</span>
+                <span class="anxiety__closing-char"><i></i>報</span>
+                <span class="anxiety__closing-char"><i></i>発</span>
+                <span class="anxiety__closing-char"><i></i>信</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -500,6 +558,64 @@
     <!-- Comparison -->
     <section class="compare section-bg">
       <div class="compare__inner">
+        <div class="anxiety__stage anxiety__stage--sp">
+          <div class="anxiety__reasons">
+          <div class="anxiety__reason anxiety__reason--2">
+            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-2.png" alt="" width="59" height="60">
+            <div class="anxiety__reason-row">
+              <img class="anxiety__reason-icon" src="assets/anxiety-sp-check.png" alt="" width="36" height="36">
+              <span class="anxiety__reason-label">人間関係</span>
+            </div>
+          </div>
+          <div class="anxiety__reason anxiety__reason--1">
+            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-1.png" alt="" width="59" height="67">
+            <div class="anxiety__reason-row">
+              <img class="anxiety__reason-icon" src="assets/anxiety-sp-check.png" alt="" width="36" height="36">
+              <span class="anxiety__reason-label">給与・待遇</span>
+            </div>
+          </div>
+          <div class="anxiety__reason anxiety__reason--3">
+            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-3.png" alt="" width="63" height="60">
+            <div class="anxiety__reason-row">
+              <img class="anxiety__reason-icon" src="assets/anxiety-sp-check.png" alt="" width="36" height="36">
+              <span class="anxiety__reason-label">仕事内容</span>
+            </div>
+          </div>
+          <div class="anxiety__reason anxiety__reason--4">
+            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-4.png" alt="" width="63" height="60">
+            <div class="anxiety__reason-row">
+              <img class="anxiety__reason-icon" src="assets/anxiety-sp-check.png" alt="" width="36" height="36">
+              <span class="anxiety__reason-label">働き方・職場環境</span>
+            </div>
+          </div>
+          <div class="anxiety__reason anxiety__reason--5">
+            <img class="anxiety__reason-graphic" src="assets/anxiety-reason-icon-5.png" alt="" width="63" height="60">
+            <div class="anxiety__reason-row">
+              <img class="anxiety__reason-icon" src="assets/anxiety-sp-check.png" alt="" width="36" height="36">
+              <span class="anxiety__reason-label">会社の将来・不安</span>
+            </div>
+          </div>
+          </div>
+
+          <div class="anxiety__closing">
+            <div class="anxiety__closing-intro">
+              <p>必要なのは、</p>
+              <p>条件の羅列ではなく</p>
+            </div>
+            <p class="anxiety__closing-accent">安心して応募できる情報発信</p>
+            <div class="anxiety__closing-sp">
+              <p class="anxiety__closing-sp-line"><span class="is-orange">安心</span>して</p>
+              <p class="anxiety__closing-sp-line"><span class="is-orange">応募</span>できる</p>
+              <div class="anxiety__closing-kanji" aria-hidden="true">
+                <span class="anxiety__closing-char"><i></i>情</span>
+                <span class="anxiety__closing-char"><i></i>報</span>
+                <span class="anxiety__closing-char"><i></i>発</span>
+                <span class="anxiety__closing-char"><i></i>信</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <header class="compare__header">
           <p class="compare__title-line">なぜ今の求人媒体では、</p>
           <p class="compare__title-main"><span class="compare__title-accent">採用が難しい</span>のか？</p>
@@ -550,8 +666,10 @@
         </div>
 
         <div class="compare__closing">
-          <p class="compare__closing-line">いい会社なのに選ばれない</p>
+          <p class="compare__closing-line">「いい会社なのに選ばれない」</p>
           <p class="compare__closing-sub">その状態を解消するのが</p>
+          <span class="compare__closing-sub-underline" aria-hidden="true"></span>
+          <img class="compare__closing-chevrons" src="assets/compare-sp-closing-chevrons.png" alt="" width="38" height="23" aria-hidden="true">
           <div class="compare__closing-accent-wrap">
             <p class="compare__closing-accent">採用ブランディング</p>
             <img class="compare__closing-underline" src="assets/compare-closing-underline.svg" alt="" width="429" height="13" aria-hidden="true">
@@ -565,40 +683,65 @@
       <div class="before-after__inner">
         <header class="before-after__header">
           <h2 class="before-after__title">
-            <span class="before-after__title-line">採用<span class="before-after__title-kern before-after__title-kern--wo">を</span>「条件勝負<span class="before-after__title-kern before-after__title-kern--quote-sm">」</span>から、</span>
-            <span class="before-after__title-main">
-              <span class="before-after__title-accent">「価値観勝負</span><span class="before-after__title-accent before-after__title-kern before-after__title-kern--quote-lg">」</span>へ。
+            <span class="before-after__title-variant before-after__title-variant--desktop">
+              <span class="before-after__title-line">採用<span class="before-after__title-kern before-after__title-kern--wo">を</span>「条件勝負<span class="before-after__title-kern before-after__title-kern--quote-sm">」</span>から、</span>
+              <span class="before-after__title-main">
+                <span class="before-after__title-accent">「価値観勝負</span><span class="before-after__title-accent before-after__title-kern before-after__title-kern--quote-lg">」</span>へ。
+              </span>
+            </span>
+            <span class="before-after__title-variant before-after__title-variant--sp">
+              <span class="before-after__title-sp-row">
+                <span class="before-after__title-sp-text">採用を</span>
+                <span class="before-after__title-sp-pill">
+                  <span class="before-after__title-sp-pill-inner">条件勝負</span>
+                </span>
+                <span class="before-after__title-sp-text">から</span>
+              </span>
+              <span class="before-after__title-sp-main">価値観勝負へ</span>
             </span>
           </h2>
         </header>
 
         <div class="before-after__stage">
           <article class="before-after__row before-after__row--before">
-            <p class="before-after__label">BEFORE</p>
+            <p class="before-after__label before-after__label--row">BEFORE</p>
             <div class="before-after__card">
+              <div class="before-after__photo before-after__photo--before">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="assets/before-after-sp-photo-before.jpg">
+                  <img src="assets/before-after-photo-before.jpg" alt="" width="476" height="330" loading="lazy">
+                </picture>
+                <span class="before-after__label before-after__label--photo">BEFORE</span>
+              </div>
               <div class="before-after__panel before-after__panel--before">
                 <p class="before-after__type before-after__type--before">条件訴求</p>
                 <div class="before-after__tags">
-                  <span class="before-after__tag">給与</span>
                   <span class="before-after__tag">福利厚生</span>
+                  <span class="before-after__tag">給与</span>
                   <span class="before-after__tag">休日</span>
                   <span class="before-after__tag">待遇・条件</span>
                 </div>
                 <p class="before-after__note">どこも同じで選ばれない・・・</p>
               </div>
-              <div class="before-after__photo before-after__photo--before">
-                <img src="assets/before-after-photo-before.png" alt="" width="476" height="330" loading="lazy">
-              </div>
             </div>
           </article>
 
+          <div class="before-after__divider" aria-hidden="true">
+            <img src="assets/before-after-sp-divider.png" alt="" width="307" height="55" loading="lazy">
+          </div>
+
           <article class="before-after__row before-after__row--after">
-            <p class="before-after__label">AFTER</p>
+            <p class="before-after__label before-after__label--row">AFTER</p>
             <div class="before-after__card">
               <div class="before-after__photo before-after__photo--after">
-                <img src="assets/before-after-photo-after.png" alt="" width="475" height="330" loading="lazy">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="assets/before-after-sp-photo-after.jpg">
+                  <img src="assets/before-after-photo-after.jpg" alt="" width="475" height="330" loading="lazy">
+                </picture>
+                <span class="before-after__label before-after__label--photo">AFTER</span>
               </div>
               <div class="before-after__panel before-after__panel--after">
+                <p class="before-after__message-line before-after__message-line--sp before-after__message-line--lead">「この会社で働きたい」ではなく、</p>
                 <p class="before-after__type before-after__type--after">価値観訴求</p>
                 <ul class="before-after__benefits">
                   <li>社長起点の採用ブランディング</li>
@@ -608,20 +751,25 @@
                 </ul>
               </div>
             </div>
+            <div class="before-after__message before-after__message--desktop">
+              <p class="before-after__message-line before-after__message-line--desktop">
+                <span class="before-after__message-band before-after__message-band--narrow">
+                  <span class="before-after__message-gold">「この会社で働きたい」ではなく、</span>
+                </span>
+              </p>
+              <p class="before-after__message-line before-after__message-line--desktop">
+                <span class="before-after__message-band before-after__message-band--wide">
+                  <span class="before-after__message-quote">「この社長のもとで働きたい」をつくる。</span>
+                </span>
+              </p>
+            </div>
+            <div class="before-after__message-sp-foot">
+              <p class="before-after__message-line before-after__message-line--sp before-after__message-line--bar">
+                <span class="before-after__message-sp-bar"><span class="before-after__message-sp-bar-text">この社長のもとで</span></span>
+              </p>
+              <p class="before-after__message-line before-after__message-line--sp before-after__message-line--tail">働きたいをつくる。</p>
+            </div>
           </article>
-        </div>
-
-        <div class="before-after__message">
-          <p class="before-after__message-line">
-            <span class="before-after__message-band before-after__message-band--narrow">
-              <span class="before-after__message-gold">「この会社で働きたい」ではなく、</span>
-            </span>
-          </p>
-          <p class="before-after__message-line">
-            <span class="before-after__message-band before-after__message-band--wide">
-              <span class="before-after__message-quote">「この社長のもとで働きたい</span><span class="before-after__message-quote before-after__message-quote--close">」</span><span class="before-after__message-tail">をつくる。</span>
-            </span>
-          </p>
         </div>
       </div>
     </section>
@@ -631,12 +779,26 @@
       <div class="services__inner">
         <header class="services__header">
           <h2 class="services__title">
-            <span class="services__title-line">
-              <span class="services__title-accent">インタビュー</span><span class="services__title-small">を</span><span class="services__title-accent">起点</span><span class="services__title-small">に、</span>
+            <span class="services__title-variant services__title-variant--desktop">
+              <span class="services__title-line">
+                <span class="services__title-accent">インタビュー</span><span class="services__title-small">を</span><span class="services__title-accent">起点</span><span class="services__title-small">に、</span>
+              </span>
+              <span class="services__title-main">記事・動画・SNSへ展開。</span>
             </span>
-            <span class="services__title-main">記事・動画・SNSへ展開。</span>
+            <span class="services__title-variant services__title-variant--sp">
+              <span class="services__title-sp-lead">インタビューを起点に、</span>
+              <span class="services__title-sp-row">
+                <span class="services__title-sp-pill">記事</span>
+                <span class="services__title-sp-pill">動画</span>
+                <span class="services__title-sp-pill">SNS</span>
+                <span class="services__title-sp-tail">へ展開。</span>
+              </span>
+            </span>
           </h2>
-          <p class="services__note">御社の課題と予算に合わせて、必要な施策だけ選べます。</p>
+          <p class="services__note">
+            <span class="services__note-variant services__note-variant--desktop">御社の課題と予算に合わせて、必要な施策だけ選べます。</span>
+            <span class="services__note-variant services__note-variant--sp">御社の課題と予算に合わせて、<br>必要な施策だけ選べます。</span>
+          </p>
         </header>
 
         <div class="services__group">
@@ -658,7 +820,7 @@
               </div>
             </article>
             <article class="services__card">
-              <p class="services__card-label">タレント<br>起用</p>
+              <p class="services__card-label">タレント起用</p>
               <div class="services__card-icon services__card-icon--a services__card-icon--talent">
                 <img src="assets/services-icons-a.png" alt="" loading="lazy">
               </div>
@@ -679,9 +841,9 @@
               </div>
             </article>
             <article class="services__card">
-              <p class="services__card-label">長尺<br>動画制作</p>
-              <div class="services__card-icon services__card-icon--a services__card-icon--long-video">
-                <img src="assets/services-icons-a.png" alt="" loading="lazy">
+              <p class="services__card-label">長尺動画制作</p>
+              <div class="services__card-icon services__card-icon--b services__card-icon--long-video">
+                <img src="assets/services-icons-b.png" alt="" loading="lazy">
               </div>
             </article>
             <article class="services__card">
@@ -741,10 +903,13 @@
 
         <div class="strengths__list">
           <article class="strengths__item">
-            <p class="strengths__num">01</p>
+            <div class="strengths__index">
+              <img class="strengths__reason" src="assets/strengths-reason.png" alt="" width="51" height="25" loading="lazy">
+              <p class="strengths__num">01</p>
+            </div>
             <div class="strengths__layout">
               <div class="strengths__visual strengths__visual--1">
-                <img src="assets/strength-1.png" alt="" width="600" height="321" loading="lazy">
+                <img src="assets/strength-1.jpg" alt="" width="600" height="321" loading="lazy">
               </div>
               <div class="strengths__copy">
                 <h3 class="strengths__heading">
@@ -757,7 +922,10 @@
           </article>
 
           <article class="strengths__item strengths__item--reverse">
-            <p class="strengths__num">02</p>
+            <div class="strengths__index">
+              <img class="strengths__reason" src="assets/strengths-reason.png" alt="" width="51" height="25" loading="lazy">
+              <p class="strengths__num">02</p>
+            </div>
             <div class="strengths__layout">
               <div class="strengths__copy">
                 <h3 class="strengths__heading">
@@ -767,16 +935,19 @@
                 <p class="strengths__text">すべてを弊社で統合設計するため、どのメディアに触れても御社の価値観が一貫して伝わります。</p>
               </div>
               <div class="strengths__visual strengths__visual--2">
-                <img src="assets/strength-2.png" alt="" width="599" height="321" loading="lazy">
+                <img src="assets/strength-2.jpg" alt="" width="599" height="321" loading="lazy">
               </div>
             </div>
           </article>
 
           <article class="strengths__item">
-            <p class="strengths__num">03</p>
+            <div class="strengths__index">
+              <img class="strengths__reason" src="assets/strengths-reason.png" alt="" width="51" height="25" loading="lazy">
+              <p class="strengths__num">03</p>
+            </div>
             <div class="strengths__layout">
               <div class="strengths__visual strengths__visual--3">
-                <img src="assets/strength-3.png" alt="" width="600" height="321" loading="lazy">
+                <img src="assets/strength-3.jpg" alt="" width="600" height="321" loading="lazy">
               </div>
               <div class="strengths__copy">
                 <h3 class="strengths__heading">
@@ -789,7 +960,10 @@
           </article>
 
           <article class="strengths__item strengths__item--reverse">
-            <p class="strengths__num">04</p>
+            <div class="strengths__index">
+              <img class="strengths__reason" src="assets/strengths-reason.png" alt="" width="51" height="25" loading="lazy">
+              <p class="strengths__num">04</p>
+            </div>
             <div class="strengths__layout">
               <div class="strengths__copy strengths__copy--wide">
                 <h3 class="strengths__heading">
@@ -799,16 +973,19 @@
                 <p class="strengths__text">撮影から改善まで社内完結。スピードと品質を両立できます。</p>
               </div>
               <div class="strengths__visual strengths__visual--4">
-                <img src="assets/strength-4.png" alt="" width="592" height="321" loading="lazy">
+                <img src="assets/strength-4.jpg" alt="" width="592" height="321" loading="lazy">
               </div>
             </div>
           </article>
 
           <article class="strengths__item">
-            <p class="strengths__num">05</p>
+            <div class="strengths__index">
+              <img class="strengths__reason" src="assets/strengths-reason.png" alt="" width="51" height="25" loading="lazy">
+              <p class="strengths__num">05</p>
+            </div>
             <div class="strengths__layout">
               <div class="strengths__visual strengths__visual--5">
-                <img src="assets/strength-5.png" alt="" width="600" height="321" loading="lazy">
+                <img src="assets/strength-5.jpg" alt="" width="600" height="321" loading="lazy">
               </div>
               <div class="strengths__copy">
                 <h3 class="strengths__heading">
@@ -827,79 +1004,161 @@
     <section class="testimonials section-bg">
       <div class="section-inner testimonials__inner">
         <h2 class="testimonials__title">掲載企業の声</h2>
-        <div class="testimonials__grid">
-          <div class="testimonials__card">
-            <div class="testimonials__thumb">
-              <img src="assets/testimonial-1.png" alt="株式会社 バブル" width="390" height="285" loading="lazy">
-              <span class="testimonials__category">メーカー</span>
-            </div>
-            <div class="testimonials__body">
-              <p class="testimonials__name">株式会社<br>バブル</p>
-              <div class="testimonials__tags">
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag">社長対談</span>
-                  <span class="testimonials__tag">記事掲載</span>
-                  <span class="testimonials__tag">冊子発行</span>
+        <div class="testimonials__slider">
+          <div class="testimonials__track">
+            <div class="testimonials__grid">
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-1.jpg" alt="株式会社 バブル" width="390" height="285" loading="lazy">
+                  <span class="testimonials__category">メーカー</span>
                 </div>
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">株式会社<br>バブル</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-2.jpg" alt="学校法人 野村学園 パール幼稚園" width="391" height="285" loading="lazy">
+                  <span class="testimonials__category">教育・研修</span>
+                </div>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">学校法人 野村学園<br>パール幼稚園</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-3.jpg" alt="株式会社 アークティック" width="390" height="285" loading="lazy">
+                  <span class="testimonials__category">サービス</span>
+                </div>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">株式会社　<br>アークティック</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-4.jpg" alt="医療法人社団健晃会 北千住すずらん歯科" width="390" height="285" loading="lazy">
+                  <span class="testimonials__category">サービス</span>
+                </div>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">医療法人社団健晃会<br>北千住すずらん歯科</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="testimonials__card">
-            <div class="testimonials__thumb">
-              <img src="assets/testimonial-2.png" alt="学校法人 野村学園 パール幼稚園" width="391" height="285" loading="lazy">
-              <span class="testimonials__category">教育・研修</span>
-            </div>
-            <div class="testimonials__body">
-              <p class="testimonials__name">学校法人 野村学園<br>パール幼稚園</p>
-              <div class="testimonials__tags">
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag">社長対談</span>
-                  <span class="testimonials__tag">記事掲載</span>
-                  <span class="testimonials__tag">冊子発行</span>
+            <div class="testimonials__grid testimonials__grid--clone" aria-hidden="true">
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-1.jpg" alt="" width="390" height="285" loading="lazy">
+                  <span class="testimonials__category">メーカー</span>
                 </div>
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonials__card">
-            <div class="testimonials__thumb">
-              <img src="assets/testimonial-3.png" alt="株式会社 アークティック" width="390" height="285" loading="lazy">
-              <span class="testimonials__category">サービス</span>
-            </div>
-            <div class="testimonials__body">
-              <p class="testimonials__name">株式会社　<br>アークティック</p>
-              <div class="testimonials__tags">
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag">社長対談</span>
-                  <span class="testimonials__tag">記事掲載</span>
-                  <span class="testimonials__tag">冊子発行</span>
-                </div>
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">株式会社<br>バブル</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="testimonials__card">
-            <div class="testimonials__thumb">
-              <img src="assets/testimonial-4.png" alt="医療法人社団健晃会 北千住すずらん歯科" width="390" height="285" loading="lazy">
-              <span class="testimonials__category">サービス</span>
-            </div>
-            <div class="testimonials__body">
-              <p class="testimonials__name">医療法人社団健晃会<br>北千住すずらん歯科</p>
-              <div class="testimonials__tags">
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag">社長対談</span>
-                  <span class="testimonials__tag">記事掲載</span>
-                  <span class="testimonials__tag">冊子発行</span>
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-2.jpg" alt="" width="391" height="285" loading="lazy">
+                  <span class="testimonials__category">教育・研修</span>
                 </div>
-                <div class="testimonials__tags-row">
-                  <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">学校法人 野村学園<br>パール幼稚園</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-3.jpg" alt="" width="390" height="285" loading="lazy">
+                  <span class="testimonials__category">サービス</span>
+                </div>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">株式会社　<br>アークティック</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__card">
+                <div class="testimonials__thumb">
+                  <img src="assets/testimonial-4.jpg" alt="" width="390" height="285" loading="lazy">
+                  <span class="testimonials__category">サービス</span>
+                </div>
+                <div class="testimonials__body">
+                  <p class="testimonials__name">医療法人社団健晃会<br>北千住すずらん歯科</p>
+                  <div class="testimonials__tags">
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag">社長対談</span>
+                      <span class="testimonials__tag">記事掲載</span>
+                      <span class="testimonials__tag">冊子発行</span>
+                    </div>
+                    <div class="testimonials__tags-row">
+                      <span class="testimonials__tag testimonials__tag--wide">タレント起用</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -915,17 +1174,20 @@
     <!-- Process -->
     <section class="process section-bg">
       <div class="section-inner process__inner">
-        <h2 class="process__title">ご相談から運用開始までの流れ</h2>
+        <h2 class="process__title">
+          <span class="process__title-line">ご相談から</span>
+          <span class="process__title-line">運用開始までの流れ</span>
+        </h2>
         <div class="process__layout">
-          <div class="process__visual">
+          <div class="process__visual process__visual--desktop">
             <div class="process__visual-item">
-              <img src="assets/process-1.png" alt="無料相談の様子" width="496" height="352" loading="lazy">
+              <img src="assets/process-1.jpg" alt="無料相談の様子" width="496" height="352" loading="lazy">
             </div>
             <div class="process__visual-item">
-              <img src="assets/process-2.png" alt="インタビュー撮影" width="496" height="351" loading="lazy">
+              <img src="assets/process-2.jpg" alt="インタビュー撮影" width="496" height="351" loading="lazy">
             </div>
             <div class="process__visual-item">
-              <img src="assets/process-3.png" alt="配信・運用" width="496" height="352" loading="lazy">
+              <img src="assets/process-3.jpg" alt="配信・運用" width="496" height="352" loading="lazy">
             </div>
           </div>
           <ol class="process__steps">
@@ -934,49 +1196,84 @@
                 <span class="process__step-num">01</span>
                 <span class="process__step-title">無料相談</span>
               </div>
-              <p class="process__step-desc">まずはオンラインで30分。具体的に決まっていなくても、課題の整理からお手伝いします。</p>
+              <div class="process__step-body">
+                <div class="process__step-thumb process__step-thumb--1">
+                  <img src="assets/process-sp-1.jpg" alt="" width="133" height="94" loading="lazy">
+                </div>
+                <p class="process__step-desc">まずは<strong>オンラインで30分</strong>。具体的に決まっていなくても、<strong>課題の整理から</strong>お手伝いします。</p>
+              </div>
             </li>
             <li class="process__step">
               <div class="process__step-banner">
                 <span class="process__step-num">02</span>
                 <span class="process__step-title">採用課題のヒアリング</span>
               </div>
-              <p class="process__step-desc">現在の採用手法、媒体、応募状況、離職の傾向、採用にかけている予算など、詳しくヒアリング。</p>
+              <div class="process__step-body">
+                <div class="process__step-thumb process__step-thumb--2">
+                  <img src="assets/process-sp-2.jpg" alt="" width="133" height="94" loading="lazy">
+                </div>
+                <p class="process__step-desc">現在の採用手法、媒体、応募状況、離職の傾向、採用にかけている予算など、<strong>詳しくヒアリング。</strong></p>
+              </div>
             </li>
             <li class="process__step">
               <div class="process__step-banner">
                 <span class="process__step-num">03</span>
                 <span class="process__step-title">最適プランの設計</span>
               </div>
-              <p class="process__step-desc">必要な施策だけを組み合わせた最適なプランをご提案。不要なものを押し売りすることはありません。</p>
+              <div class="process__step-body">
+                <div class="process__step-thumb process__step-thumb--3">
+                  <img src="assets/process-sp-3.jpg" alt="" width="133" height="94" loading="lazy">
+                </div>
+                <p class="process__step-desc">必要な施策だけを組み合わせた<strong>最適なプランをご提案</strong>。不要なものを押し売りすることはありません。</p>
+              </div>
             </li>
             <li class="process__step">
               <div class="process__step-banner">
                 <span class="process__step-num">04</span>
                 <span class="process__step-title">インタビュー / 撮影</span>
               </div>
-              <p class="process__step-desc">社長インタビューを中心に、社員インタビューやオフィス撮影を実施。</p>
+              <div class="process__step-body">
+                <div class="process__step-thumb process__step-thumb--4">
+                  <img src="assets/process-sp-4.jpg" alt="" width="132" height="94" loading="lazy">
+                </div>
+                <p class="process__step-desc"><strong>社長インタビュー</strong>を中心に、社員インタビューやオフィス撮影を実施。</p>
+              </div>
             </li>
             <li class="process__step">
               <div class="process__step-banner">
                 <span class="process__step-num">05</span>
                 <span class="process__step-title">記事・動画・SNS制作</span>
               </div>
-              <p class="process__step-desc">インタビュー素材をもとに、記事、動画、SNSコンテンツを制作。</p>
+              <div class="process__step-body">
+                <div class="process__step-thumb process__step-thumb--5">
+                  <img src="assets/process-sp-5.jpg" alt="" width="132" height="94" loading="lazy">
+                </div>
+                <p class="process__step-desc"><strong>インタビュー素材</strong>をもとに、記事、動画、SNSコンテンツを制作。</p>
+              </div>
             </li>
             <li class="process__step">
               <div class="process__step-banner">
                 <span class="process__step-num">06</span>
                 <span class="process__step-title">配信 / 運用 / 修正</span>
               </div>
-              <p class="process__step-desc">各メディアで配信開始。制作データはすべてお渡しするので、採用LP・SNS等に自由にご活用いただけます。</p>
+              <div class="process__step-body">
+                <div class="process__step-thumb process__step-thumb--6">
+                  <img src="assets/process-sp-6.jpg" alt="" width="132" height="94" loading="lazy">
+                </div>
+                <p class="process__step-desc">各メディアで配信開始。制作データはすべてお渡しするので、採用LP・SNS等に自由にご活用いただけます。</p>
+              </div>
             </li>
-            <li class="process__step">
+            <li class="process__step process__step--7">
               <div class="process__step-banner">
                 <span class="process__step-num">07</span>
                 <span class="process__step-title">採用ページ・応募導線へ接続</span>
               </div>
-              <p class="process__step-desc">採用ページや応募フォームへの導線を接続。認知から応募までの流れを完成させます。</p>
+              <div class="process__step-body process__step-body--7">
+                <div class="process__step-thumb process__step-thumb--7">
+                  <img src="assets/process-sp-7.jpg" alt="" width="135" height="95" loading="lazy">
+                </div>
+                <p class="process__step-desc">採用ページや応募フォームへの導線を接続。<strong>認知から応募まで</strong>の流れを完成させます。</p>
+              </div>
             </li>
           </ol>
         </div>
@@ -987,26 +1284,58 @@
     <section class="cta-block" id="contact">
       <div class="cta-block__inner">
         <h2 class="cta-block__title">
-          <span class="cta-block__title-line">「条件で戦う採用」から、</span>
-          <span class="cta-block__title-line cta-block__title-line--lg">抜け出しませんか？</span>
+          <span class="cta-block__title-variant cta-block__title-variant--desktop">
+            <span class="cta-block__title-line">「条件で戦う採用」から、</span>
+            <span class="cta-block__title-line cta-block__title-line--lg">抜け出しませんか？</span>
+          </span>
+          <span class="cta-block__title-variant cta-block__title-variant--sp">
+            <span class="cta-block__title-line">条件で戦う採用から、</span>
+            <span class="cta-block__title-line cta-block__title-line--lg">抜け出しませんか？</span>
+          </span>
         </h2>
         <div class="cta-block__text">
-          <p>「何から始めればいいかわからない」「まだ具体的に決まっていない」という段階で構いません。</p>
-          <p>採用の現状をお聞かせいただければ、御社に合った発信の方向性を一緒に整理します。</p>
+          <div class="cta-block__text-variant cta-block__text-variant--desktop">
+            <p>「何から始めればいいかわからない」「まだ具体的に決まっていない」という段階で構いません。</p>
+            <p>採用の現状をお聞かせいただければ、御社に合った発信の方向性を一緒に整理します。</p>
+          </div>
+          <p class="cta-block__text-variant cta-block__text-variant--sp">何から始めればいいかわからない...まだ具体的<br>に決まっていない...という段階で構いません。<br>採用の現状をお聞かせいただければ、御社に<br>合った発信の方向性を一緒に整理します。</p>
         </div>
         <div class="cta-block__panel">
-          <p class="cta-block__sub">まずは無料で30分、御社の採用の「伝え方」が見えてきます。</p>
+          <div class="cta-block__sub">
+            <p class="cta-block__sub-variant cta-block__sub-variant--desktop">まずは無料で30分、御社の採用の「伝え方」が見えてきます。</p>
+            <div class="cta-block__sub-variant cta-block__sub-variant--sp">
+              <span class="cta-block__sub-deco cta-block__sub-deco--left" aria-hidden="true">
+                <span class="cta-block__sub-deco-line">
+                  <img src="assets/cta-sp-sub-line-left.svg" alt="" width="55" height="3">
+                </span>
+              </span>
+              <div class="cta-block__sub-lines">
+                <p class="cta-block__sub-line-lg">まずは無料で30分、</p>
+                <p class="cta-block__sub-line-sm">御社の採用の伝え方が見えてきます。</p>
+              </div>
+              <span class="cta-block__sub-deco cta-block__sub-deco--right" aria-hidden="true">
+                <span class="cta-block__sub-deco-line">
+                  <img src="assets/cta-sp-sub-line-right.svg" alt="" width="55" height="3">
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="cta-block__btn-wrap">
           <a href="#form" class="cta-block__btn">
             <span class="cta-block__btn-side cta-block__btn-side--left" aria-hidden="true">
-              <img class="cta-block__btn-mail" src="assets/btn-cta-mail.svg" alt="" width="49" height="37">
+              <img class="cta-block__btn-mail" src="assets/btn-cta-mail.svg" alt="" width="37" height="28">
             </span>
             <span class="cta-block__btn-text">
-              <span class="cta-block__btn-lg">採用課題</span><span class="cta-block__btn-sm">を</span><span class="cta-block__btn-lg">相談</span><span class="cta-block__btn-sm">する</span>
+              <span class="cta-block__btn-variant cta-block__btn-variant--desktop">
+                <span class="cta-block__btn-lg">採用課題</span><span class="cta-block__btn-sm">を</span><span class="cta-block__btn-lg">相談</span><span class="cta-block__btn-sm">する</span>
+              </span>
+              <span class="cta-block__btn-variant cta-block__btn-variant--sp">採用課題を相談する</span>
             </span>
             <span class="cta-block__btn-side cta-block__btn-side--right" aria-hidden="true">
-              <img class="cta-block__btn-arrow" src="assets/cta-block-btn-arrow.svg" alt="" width="27" height="42">
+              <img class="cta-block__btn-arrow" src="assets/cta-block-btn-arrow.svg" alt="" width="20" height="32">
             </span>
           </a>
+          </div>
         </div>
       </div>
     </section>
@@ -1014,13 +1343,19 @@
     <!-- Form -->
     <section class="form-section" id="form">
       <div class="form-section__inner">
-        <h2 class="form-section__title">お問い合わせフォーム</h2>
+        <h2 class="form-section__title">
+          <span class="form-section__title-variant form-section__title-variant--desktop">お問い合わせフォーム</span>
+          <span class="form-section__title-variant form-section__title-variant--sp">お問い合わせフォーム</span>
+        </h2>
         <div class="form-section__lead">
-          <p>無料相談では、現在の採用状況や課題をヒアリングし、</p>
-          <p>御社に合った発信方法を提案します。</p>
+          <div class="form-section__lead-variant form-section__lead-variant--desktop">
+            <p>無料相談では、現在の採用状況や課題をヒアリングし、</p>
+            <p>御社に合った発信方法を提案します。</p>
+          </div>
+          <p class="form-section__lead-variant form-section__lead-variant--sp">無料相談では、現在の採用状況や課題をヒアリングし、御社に合った発信方法を提案します。</p>
         </div>
         <form class="contact-form" action="#" method="post">
-          <div class="form-group">
+          <div class="form-group form-group--company">
             <label class="form-label">会社名 <span class="form-badge form-badge--required">必須</span></label>
             <input class="form-control" type="text" name="company" required>
           </div>
