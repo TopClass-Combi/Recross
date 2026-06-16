@@ -1418,5 +1418,48 @@
     </footer>
 
   </div>
+  <a href="#contact" class="hero__cta-sp hero__cta-sp--float" aria-label="採用ブランディングについて無料相談はこちら">
+    <span class="hero__cta-sp-badge" aria-hidden="true">
+      <span class="hero__cta-sp-yen">￥</span><span class="hero__cta-sp-zero">0</span>
+    </span>
+    <span class="hero__cta-sp-copy">
+      <span class="hero__cta-sp-line1">
+        <span class="hero__cta-sp-accent">採用</span><span class="hero__cta-sp-accent hero__cta-sp-accent--tight">ブランディング</span><span class="hero__cta-sp-plain">について</span>
+      </span>
+      <span class="hero__cta-sp-line2">
+        <img class="hero__cta-sp-mail" src="assets/btn-cta-mail.svg" alt="" width="30" height="20">
+        <span class="hero__cta-sp-accent">無料相談</span><span class="hero__cta-sp-plain">はこちら</span>
+      </span>
+    </span>
+    <img class="hero__cta-sp-arrow" src="assets/cta-block-btn-arrow.svg" alt="" width="17" height="27">
+  </a>
+  <script>
+    (function () {
+      var ctaHero = document.querySelector('.hero__panel-composite .hero__cta-sp');
+      var ctaFloat = document.querySelector('.hero__cta-sp--float');
+      if (!ctaHero || !ctaFloat) return;
+
+      var mq = window.matchMedia('(max-width: 767px)');
+
+      function isHeroCtaVisible() {
+        var rect = ctaHero.getBoundingClientRect();
+        return rect.top < window.innerHeight && rect.bottom > 0;
+      }
+
+      function updateHeroCtaSp() {
+        if (!mq.matches) {
+          ctaFloat.classList.remove('is-visible');
+          return;
+        }
+
+        ctaFloat.classList.toggle('is-visible', !isHeroCtaVisible());
+      }
+
+      window.addEventListener('scroll', updateHeroCtaSp, { passive: true });
+      window.addEventListener('resize', updateHeroCtaSp);
+      mq.addEventListener('change', updateHeroCtaSp);
+      updateHeroCtaSp();
+    })();
+  </script>
 </body>
 </html>
